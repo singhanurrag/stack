@@ -1,0 +1,178 @@
+.body{
+   background-color:  #391624;
+   min-height: 100%;
+   overflow: hidden;
+}
+@media screen and (min-width: 1001px){
+p{
+    margin: 40px 250px 80px 250px;
+    font-size: 20px;
+    color: white;
+}}
+@media screen and (max-width: 1000px){
+    p{
+        margin: 30px 20px 80px 20px;
+        font-size: 17px;
+        color: white;
+    }}
+@media screen and (min-width: 1001px){
+h{
+    font-size: 65px;
+    color: white;
+    font-family: serif;
+}}
+@media screen and (max-width: 1000px){
+    h{
+        font-size: 40px;
+        color: white;
+        font-family: serif;
+    }}
+.start{
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+@media screen and (min-width: 1001px){
+t{
+    color: white;
+    font-size: 25px;
+}}
+@media screen and (max-width: 1000px){
+    t{
+        color: white;
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 801px){
+.b{
+    background-color: rgb(169, 197, 169);
+    border-radius: 5px;
+    font-size: 21px;
+    height: 40px;
+    color: rgb(74, 22, 42);
+    border: 0ch;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 30px;
+    cursor: pointer;
+}}
+@media screen and (max-width: 800px){
+    .b{
+        background-color: rgb(169, 197, 169);
+        border-radius: 5px;
+        font-size: 16px;
+        height: 30px;
+        color: rgb(74, 22, 42);
+        border: 0ch;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 30px;
+        cursor: pointer;
+    } 
+}
+.b:hover{
+    background-color: rgb(127, 160, 112);
+}
+@media screen and (min-width: 801px){
+.cards{
+     background-color: white;
+     height: 100%;
+     width: 80%;
+     display: grid;
+     border-radius: 10px;
+     margin-bottom: 10px;
+ }
+.card{
+     display: flex;
+ }
+.in{
+    height: 100%;
+    width: 50%;
+    text-align: left;
+    margin-top: 150px;
+}
+img{
+    height: 100%;
+    width: 50%;
+    border-radius: 0px 10px 10px 0px;
+}
+c{
+    width: 400px;
+    font-family: serif;
+    font-size: 45px;
+    font-weight: 200;
+}
+l{
+    font-size: 20px;
+    font-weight: 450;
+}
+.ini{
+    padding-left: 40px;
+    padding-right: 40px;
+}}
+@media screen and (min-width: 801px){
+.b2{
+    background-color: rgb(179, 101, 6);
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    height: 40px;
+    border: none;
+    padding: 0px 30px 0px 30px;
+    margin-top: 6%;
+}}
+@media screen and (max-width: 800px){
+    .b2{
+        background-color: rgb(179, 101, 6);
+        color: white;
+        border-radius: 5px;
+        font-size: 15px;
+        height: 30px;
+        border: none;
+        padding: 0px 10px 0px 10px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .cards{
+     background-color: white;
+     height: 100%;
+     width: 90%;
+     display: grid;
+     border-radius: 10px;
+     margin-bottom: 3%;
+ }
+.card{
+     display: flex;
+ }
+.in{
+    height: 100%;
+    width: 50%;
+    text-align: left;
+    margin-top: 50px;
+}
+img{
+    height: 100%;
+    width: 50%;
+    border-radius: 0px 10px 10px 0px;
+}
+c{
+    width: auto;
+    font-family: serif;
+    font-size: 25px;
+    font-weight: 200;
+    
+}
+.ini br{
+    display: none;
+}
+l{
+    visibility: hidden;
+}
+.ini{
+    padding-left: 5%
+}}
+.b2:hover{
+    background-color: rgb(129, 73, 4);
+}
+ 
